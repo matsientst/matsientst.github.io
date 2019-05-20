@@ -92,11 +92,13 @@ h4.sans {
 	font-size: 0.75rem;
 	font-weight:100;
 	text-transform: uppercase;
-	height: 56px;
+	height: 46px;
+	min-height:46px;
+	display:inline-block;
 	font-family: 'Beausite Clear';
     margin: 0em 0.25em 0em 0em;
     padding: 0.6875em 2rem 0.6875em;
 	border-radius: 0;
-	
-	
+	text-decoration:none;
+	line-height:4;
 }
