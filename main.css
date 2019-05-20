@@ -53,14 +53,13 @@ body {
   font-smoothing: antialiased;
 }
 
-@media only screen and (min-width: 1200px) {
-		.ui.container {
-		width:1319px;
-	}
-}
 .error-header img {
 	text-align:center;
 	margin:auto;
+}
+.error-header .column {
+	text-align: center;
+    padding-top: 40px;
 }
 h2.ui.header {
 	font-family: Cambon, "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -79,6 +78,11 @@ h2.ui.header {
 h4.sans {
 	font-weight: 300;
     font-family: 'Beausite Clear';
+}
+.eight.wide {
+	max-width:600px;
+	text-align: center;
+	margin:auto;
 }
 #error-500 .ui.primary.button {
 	background-color: #08193c;
