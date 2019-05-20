@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: 'Cambon';
+  src: url('fonts/Cambon-Light.eot');
+  src: url('fonts/Cambon-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/Cambon-Light.woff2') format('woff2'),
+    url('fonts/Cambon-Light.woff') format('woff'),
+    url('fonts/Cambon-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beausite Clear';
+  src: url('fonts/BeausiteClassicWeb-Clear.eot'),
+    url('fonts/BeausiteClassicWeb-Clear.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/BeausiteClassicWeb-Clear.otf') format('opentype'),
+    url('fonts/BeausiteClassicWeb-Clear.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Beausite Classic';
+  src: url('fonts/BeausiteClassic-Light.eot');
+  src: url('fonts/BeausiteClassic-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/BeausiteClassic-Light.woff2') format('woff2'),
+    url('fonts/BeausiteClassic-Light.woff') format('woff'),
+    url('fonts/BeausiteClassic-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: 'Beausite Classic';
+  font-size: 100%;
+  line-height: 1.5rem;
+  color: #4d545d;
+  font-smoothing: antialiased;
+}
+
+@media only screen and (min-width: 1200px) {
+		.ui.container {
+		width:1319px;
+	}
+}
+.error-header img {
+	text-align:center;
+	margin:auto;
+}
+h2.ui.header {
+	font-family: Cambon, "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size:56px;
+	font-weight: 100;
+	border: none;
+	margin: calc(2rem -  0.14285714em ) 0em 1rem;
+	padding: 0em 0em;
+	padding-top:100px;
+	font-family: 'Cambon', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	line-height: 1.28571429em;
+	text-transform: none;
+	color: #08193c;
+}
+h4.sans {
+	font-weight: 300;
+    font-family: 'Beausite Clear';
+}
+#error-500 .ui.primary.button {
+	background-color: #08193c;
+    color: #ffffff;
+    text-shadow: none;
+    background-image: none;
+	font-size: 0.75rem;
+	font-weight:100;
+	text-transform: uppercase;
+	height: 56px;
+	font-family: 'Beausite Clear';
+    margin: 0em 0.25em 0em 0em;
+    padding: 0.6875em 2rem 0.6875em;
+	border-radius: 0;
+	
+	
+}
