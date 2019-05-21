@@ -20,18 +20,6 @@
     url('fonts/BeausiteClassicWeb-Clear.woff') format('woff');
 }
 
-@font-face {
-  font-family: 'Beausite Classic';
-  src: url('fonts/BeausiteClassic-Light.eot');
-  src: url('fonts/BeausiteClassic-Light.eot?#iefix')
-      format('embedded-opentype'),
-    url('fonts/BeausiteClassic-Light.woff2') format('woff2'),
-    url('fonts/BeausiteClassic-Light.woff') format('woff'),
-    url('fonts/BeausiteClassic-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
 
 html,
 body {
@@ -46,7 +34,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'Beausite Classic';
+  font-family: 'Beausite Clear';
   font-size: 100%;
   line-height: 1.5rem;
   color: #4d545d;
