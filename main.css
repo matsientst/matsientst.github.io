@@ -71,6 +71,7 @@ h4.sans {
 	max-width:600px;
 	text-align: center;
 	margin:auto;
+	padding:20px;
 }
 #error-500 .ui.primary.button {
 	background-color: #08193c;
